@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+    <div class="header">
+        <h2>Pick a number between 1 & 100</h2>
+    </div>
+
+    <div class="container">
+        <div class="form">
+            <input class="input-number" type="number" placeholder="Your Guess?" autofocus>
+        </div>
+    
+        <div class="buttons">
+            <button id="submit-button" onclick="getUserNumber()">Check Me!</button>
+            <button id="restart-button" onclick="restartGame()">Restart</button>
+        </div>
+    </div>
+    <div class="result">
+        <div class="result-wrong">
+        </div>
+        <div class="result-correct">
+        </div>
+    </div>
+    <div class="history-mega">
+        <div class="history">
+            <!-- Guess History -->
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
